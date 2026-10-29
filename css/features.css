@@ -25,3 +25,30 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.features-section-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.features {
+  padding: 120px 0;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: 264px;
+}
+
+.feature-title {
+  margin-bottom: 8px;
+}

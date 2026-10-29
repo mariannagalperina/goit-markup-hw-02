@@ -6,6 +6,7 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo span {
@@ -43,4 +44,23 @@
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address {
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
